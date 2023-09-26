@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>InstaDog</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark container-md mb-5">
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="https://clipart-library.com/images_k/white-dog-silhouette/white-dog-silhouette-8.png"
+          alt="Dog Icon"
+          width="40px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#narbarNavDropDown"
+        aria-controle="narbarNavDropDown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="narbarNavDropDown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact-us.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container">
+      <h1>About Us</h1>
+      <p>
+        A group of people with a passion for canine photographs. We strive to
+        capture the most descriptive and vizualy pleasing images of our canine
+        friends. We hope you enjoy this passion as much as we do!
+      </p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Team member</th>
+            <th scope="col">Specialty</th>
+            <th scope="col">Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Michael Smith</th>
+            <td>Canine trainer</td>
+            <td>"A dog is only as good as it's handler."</td>
+          </tr>
+          <tr>
+            <th scope="row">Sally Bottomworth</th>
+            <td>Canine trainer</td>
+            <td>"There is no dog that cannot be trained."</td>
+          </tr>
+          <tr>
+            <th scope="row">Ben Farnsworth</th>
+            <td>Canine Photographer</td>
+            <td>"I vizualize the beauty of dogs."</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
